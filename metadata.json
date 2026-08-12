@@ -1,0 +1,6 @@
+{
+  "name": "CASSINO V-7.0",
+  "description": "Análise científica para resultados precisos.!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

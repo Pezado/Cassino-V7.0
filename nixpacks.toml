@@ -1,0 +1,14 @@
+[providers]
+providers = ["node", "python"]
+
+[phases.setup]
+nixPkgs = ["nodejs_20", "python3", "python3Packages.pip"]
+
+[phases.install]
+cmds = ["npm install", "pip3 install -r requirements.txt || true"]
+
+[phases.build]
+cmds = ["npm run build"]
+
+[start]
+cmd = "npm start"
